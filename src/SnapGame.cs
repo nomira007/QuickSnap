@@ -6,7 +6,8 @@ namespace CardGames
 {
     public class SnapGame
     {
-        public static void LoadResources()
+        //add line
+		public static void LoadResources()
         {
             Bitmap cards;
             cards = SwinGame.LoadBitmapNamed ("Cards", "Cards.png");
